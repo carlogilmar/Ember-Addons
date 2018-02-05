@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('table');
   this.route('validate');
   this.route('check');
+  this.route('component');
 });
 
 export default Router;
