@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('table');
+  this.route('validate');
 });
 
 export default Router;

@@ -1,0 +1,8 @@
+
+<h1> Validations </h1>
+
+{{#bs-form model=login novalidate=false as |form|}}
+  {{form.element controlType="email" label="Email" placeholder="Email" property="email"}}
+  {{form.element controlType="password" label="Password" placeholder="Password" property="password"}}
+  {{bs-button defaultText="Submit" type="primary" buttonType="submit"}}
+{{/bs-form}}
