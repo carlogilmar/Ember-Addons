@@ -32,7 +32,7 @@ export default Route.extend({
     });
   },
   actions:{
-    sendTo:function(){
+    sendTo:function(e){
       console.log("Hola! Recibi el component en el rpoute :D");
     }
   }
