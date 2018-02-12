@@ -8,7 +8,11 @@ export default Route.extend({
       {propertyName: 'firstName'},
       {propertyName: 'lastName'},
       {propertyName: 'age'},
-      {propertyName: 'city'}
+      {propertyName: 'city'},
+      {
+        "title": "Componente",
+        "component": "button-table"
+      }
     ]
 
     var data = [
@@ -26,5 +30,10 @@ export default Route.extend({
       data:data,
       columns:columns
     });
+  },
+  actions:{
+    sendTo:function(){
+      console.log("Hola! Recibi el component en el rpoute :D");
+    }
   }
 });
